@@ -1,16 +1,25 @@
-# chatapp
+# ChatApp
 
-A new Flutter project.
+A real-time chat application built with **Flutter** and **Firebase**.
 
-## Getting Started
+## Features
+- User Authentication (Register/Login)
+- Real-time messaging
+- Firebase Firestore integration
+- Beautiful UI with custom chat bubbles
+- Responsive design
 
-This project is a starting point for a Flutter application.
+## Screenshots
+| Login Screen  | Chat Screen  |
+|---------------|--------------|
+| ![Login Screen](assets/images/login.png) | ![Chat Screen](assets/images/chat.png) |
 
-A few resources to get you started if this is your first Flutter project:
+ lib/
+├── componnet/               # Custom UI components
+├── models/                  # Message model
+├── screen/                  # Screens (Login, Register, Chat)
+├── const.dart               # Constants (Colors, Styles)
+└── main.dart                # Main entry point
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Let me know if you want to modify any section!
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
